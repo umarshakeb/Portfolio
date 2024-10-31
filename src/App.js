@@ -8,10 +8,20 @@ const Portfolio = () => {
   const skills = [
     "Python", "Machine Learning", "Deep Learning", "Computer Vision", 
     "SQL", "LLMs", "Langchain", "MongoDB", "Tensorflow", "Keras",
-    "GitHub", "Flask"
+    "GitHub", "Flask", "Databricks", "Azure"
   ];
 
   const professionalProjects = [
+    {
+      title: "Document comparison tool",
+      description: "Developed and optimized advanced OCR solutions for high-accuracy table and text extraction from scanned PDF documents. Enhanced document comparison logic using GPT-4, achieving substantial improvements in accuracy and project impact.",
+      tags: ["Python", "GPT-4", "Databricks", "MongoDB", "Azure"],
+      keyFeatures: [
+        "Implemented and benchmarked state-of-the-art OCR tools for precise table and text extraction from scanned PDFs, driving improvements in data accuracy.",
+        "Conducted comprehensive experiments with OCR tools such as Sparrow, EasyOCR, PaddleOCR, and GOT OCR 2.0, achieving a 98% accuracy rate for table extraction.",
+        "Led enhancements to document comparison logic using GPT-4 (32k), significantly elevating project performance and value."
+      ]
+    },
     {
       title: "GPT-4 Powered Enterprise Chatbot",
       description: "Developed and deployed a sophisticated chatbot using GPT-4, Langchain, and FAISS, resulting in 70% reduction in team effort. Implemented RAG and fine-tuned prompts for enhanced output quality.",
